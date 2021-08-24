@@ -1,0 +1,89 @@
+/* Styling The Body */
+
+body {
+    background-color: #b80f0f;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+/* Styling The Container */
+
+.container {
+    width: 100%;
+}
+
+
+/* Styling The Paragraph */
+
+p {
+    color: white;
+    font-size: 8vw;
+}
+
+
+/* Styling The Clock Section */
+
+#clock {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Styling The Progress */
+
+#progressBarContainer {
+    transform: rotate(180deg);
+}
+
+
+/* Styling The Button Section */
+
+#buttonSection {
+    width: 100%;
+    padding-top: 1.5rem;
+}
+
+
+/** Styling The Round Buttons**/
+
+.roundButton {
+    border-radius: 50%;
+    background-color: white;
+    border: 0;
+    width: 5rem;
+    height: 5rem;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.roundButton:hover {
+    color: white;
+    background-color: #be4848;
+    border: solid 5px white;
+}
+
+.button1 {
+    float: left;
+    width: 49%;
+}
+
+.button2 {
+    float: right;
+    width: 49%;
+}
+
+
+/* Styling The Time Selectors */
+
+.selector {
+    background-color: white;
+    padding: .8rem 1.4rem .9rem .8rem;
+    width: 30%;
+    border-radius: .5rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 1rem;
+    text-align: center;
+}
