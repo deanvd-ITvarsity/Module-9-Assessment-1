@@ -17,7 +17,13 @@ h2 {
     margin: 0 100px 30px 100px;
     border: solid 5px red;
     border-radius: 15px;
-    color: #b80f0f;
+    color: #be4848;
+}
+
+h2:hover {
+    background-color: #be4848;
+    border: solid 5px white;
+    color: white;
 }
 
 
