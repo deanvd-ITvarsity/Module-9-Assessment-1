@@ -158,12 +158,12 @@ span:nth-child(9) {
     padding: .8rem 1.4rem .9rem .8rem;
     width: 30%;
     border-radius: 1rem;
+    border: solid 5px red;
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
     font-size: 1rem;
     text-align: center;
-    border: solid 5px red;
 }
 
 .selector:hover {
