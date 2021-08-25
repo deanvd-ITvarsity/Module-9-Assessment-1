@@ -7,6 +7,20 @@ body {
 }
 
 
+/* Styling The Heading */
+
+h2 {
+    color: white;
+    font-size: 4vw;
+    text-shadow: blue;
+    background-color: white;
+    margin: 0 100px 30px 100px;
+    border: solid 5px red;
+    border-radius: 15px;
+    color: #b80f0f;
+}
+
+
 /* Styling The Container */
 
 .container {
