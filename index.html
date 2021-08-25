@@ -12,13 +12,20 @@
         <svg id="progressBarContainer" width="144" height="300">
             <defs>
             <pattern id="pattern-1" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse">
-                <circle cx="5" cy="5" r="3" stroke="0" fill="white"/>
+                <circle cx="5" cy="5" r="4"  stroke="0" fill="white"/>
             </pattern>
         </defs>
         <rect id="progressBar" x="0" y="0" width="144" height="300" style="fill: url(#pattern-1)"/>
         </svg>
         <div id="clock">
-            <p>Ready!</p>
+            <p>
+                <span>R</span>
+                <span>E</span>
+                <span>A</span>
+                <span>D</span>
+                <span>Y</span>
+                <span>!</span>
+            </p>
         </div>
         <div id="content">
             <select class="selector" id="hours">
@@ -218,7 +225,7 @@
 
             if (newTimePeriod < 0 || cancelled) {
                 clearInterval(timer);
-                document.getElementById("clock").innerHTML = "<p>Complete !</p>";
+                document.getElementById("clock").innerHTML = "<p> <span>C</span> <span>O</span> <span>M</span> <span>P</span> <span>L</span> <span>E</span> <span>T</span> <span>E</span> <span>!</span></p>";
 
             }
 
